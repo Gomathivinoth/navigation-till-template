@@ -1,0 +1,24 @@
+  <div data-scroll-to-active="true" class="main-menu menu-fixed menu-light menu-accordion menu-shadow">
+    <div class="main-menu-content">
+      <ul id="main-menu-navigation" data-menu="menu-navigation" class="navigation navigation-main">
+        
+       
+        <li class=" nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/dashboard"><i class="ft-home"></i><span data-i18n="" class="menu-title">Dashboard</span></a>
+        </li>
+        <li class=" nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a ><i class="ft-home"></i><span data-i18n="" class="menu-title">Hospital</span></a>
+          <ul class="menu-content">            
+            <li  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/hospital/add-hospital"><i class="ft-home"></i><span data-i18n="" class="menu-title">Add Hospital</span></a>
+            </li>
+            <li  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/hospital/add-branch" class="menu-item"><i class="ft-home"></i><span data-i18n="" class="menu-title">Add Branch</span></a>
+            </li>
+          </ul>
+        </li>
+        <li class=" nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/users"><i class="ft-home"></i><span data-i18n="" class="menu-title">Users</span></a>
+        </li>
+        <li class=" nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/prosthesis"><i class="ft-home"></i><span data-i18n="" class="menu-title">Prosthesis</span></a>
+        </li>
+         <li class=" nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a routerLink="/superadmin/options"><i class="ft-home"></i><span data-i18n="" class="menu-title">Options</span></a>
+        </li>
+      </ul>
+    </div>
+  </div>
